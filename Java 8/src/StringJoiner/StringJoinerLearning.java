@@ -1,7 +1,10 @@
+package StringJoiner;
+
 import java.util.*;
 public class StringJoinerLearning{
 	
 	public static void main(String args[]){
+		
 		StringJoiner stringJoiner = new StringJoiner(".");
 		stringJoiner.add("StringJoiner is a class introduced in java 8");
 		stringJoiner.add(" Its purpose is to join together added elements using provided delimiter");
